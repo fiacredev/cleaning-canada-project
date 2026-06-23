@@ -13,6 +13,17 @@ pnpm dev
 # or
 bun dev
 ```
+<div className="flex items-center gap-2">
+  <div className="w-10 h-10 flex items-center justify-center overflow-visible">
+    <Image
+      src="/transparent.png"
+      alt="Logo"
+      width={100}
+      height={100}
+      className="w-10 h-10 object-contain scale-400 transform"
+    />
+  </div>
+</div>
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

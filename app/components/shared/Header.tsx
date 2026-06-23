@@ -54,17 +54,18 @@ useEffect(() => {
         
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <Image
-            src="/logo.png"
-            alt="Logo"
-            width={40}
-            height={40}
-            className="w-10 h-10 sm:w-15 sm:h-15 md:w-10 md:h-10"
-          />
 
-          <div className="relative w-44 h-[38px]">
-            <Image src="/text.png" alt="Logo" fill className="object-contain" />
+        <div className="flex items-center gap-2 ml-15">
+          <div className="w-10 h-10 flex items-center justify-center overflow-visible">
+            <Image
+              src="/transparent.png"
+              alt="Logo"
+              width={100}
+              height={100}
+              className="w-10 h-10 object-contain scale-400 transform"
+            />
           </div>
+        </div>
           {/* <h1 className={`text-blue-600 ${myFont.className} text-lg sm:text-xl md:text-2xl`}>
             Pure Air Nettoyage
           </h1> */}
