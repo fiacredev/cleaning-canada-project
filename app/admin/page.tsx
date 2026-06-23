@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import AddPromotion from "./addPromotion";
 
-const API = "http://localhost:5000";
+const API = "https://hubertgreenefy-backend.onrender.com";
 
 interface Promotion {
   _id: string;

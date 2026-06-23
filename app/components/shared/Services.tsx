@@ -1,5 +1,4 @@
 import React from 'react'
-// import pharmacy from "../../../public/pharmacy.jpg"
 
 const services = [
   "Janitorial Service",
@@ -13,13 +12,6 @@ const services = [
   "Healthcare Service",
   "National Accounts",
 ];
-
-// const serviceImages = [
-//   "https://images.unsplash.com/photo-1581578731548-c64695cc6952",
-//   "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-//   "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c",
-//   "https://cleanroom.com.au/7-important-ways-to-prevent-cleanroom-contamination",
-// ];
 
 const serviceImages = [
   "/pharmacy.jpg",
