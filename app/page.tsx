@@ -77,11 +77,12 @@ const structuredData = {
           <LazySection>
             <Contact />
           </LazySection>
+          
+          <BackToTop />
 
           <Footer />
           {/* just come back at top */}
 
-          <BackToTop />
       </div>
       {/* Final CTA Section of air flow*/}
       {/* <Footer />
