@@ -9,6 +9,7 @@ import Promotion from "./components/shared/Promotion";
 import Contact from "./components/shared/Contact";
 import Footer from "./components/shared/Footer";
 import GoToPromo from "./components/shared/GoToPromo";
+import BackToTop from "./components/shared/ui/BackToTop";
 import type { Metadata } from "next";
 import Script from "next/script";
 
@@ -78,6 +79,7 @@ const structuredData = {
           </LazySection>
 
           <Footer />
+          <BackToTop />
       </div>
       {/* Final CTA Section of air flow*/}
       {/* <Footer />
