@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.get("/", (req, res) => res.send("finally you are there"));  
+app.get("/", (req, res) => res.send("This is hubert greenfey project..."));  
 app.use("/api/promotions", promotionRoutes);
 app.use("/api/messages", messageRoutes);
 app.use("/api/auth", authRoutes);   
