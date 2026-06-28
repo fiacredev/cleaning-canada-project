@@ -104,7 +104,7 @@ useEffect(() => {
               top-full lg:top-auto
               right-2 lg:right-auto
               w-fit max-w-[80%] lg:w-auto
-              bg-blue-900 lg:bg-transparent
+              bg-blue-500 lg:bg-transparent
               backdrop-blur-md
               text-red font-semibold
               mt-2 lg:mt-0

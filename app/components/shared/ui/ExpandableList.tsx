@@ -79,7 +79,7 @@ const ExpandableList: React.FC<ExpandableListProps> = ({
             }`}
             aria-hidden={!isExpanded(item.id)}
           >
-            <div className="bg-green-800 rounded-xl p-4 sm:p-5 md:p-6">
+            <div className="bg-green-400 rounded-xl p-4 sm:p-5 md:p-6">
               <p className="text-white/90 font-normal text-sm sm:text-base leading-5 sm:leading-6">
                 {item.answer || 'Content for this question will be available soon.'}
               </p>
